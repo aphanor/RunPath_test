@@ -1,11 +1,11 @@
 runPath.filter('startFrom', function () {
-	return function (input, start) {
-		if (input) {
-			start = +start;
-			return input.slice(start);
-		}
-		return [];
-	};
+    return function (input, start) {
+        if (input) {
+            start = +start;
+            return input.slice(start);
+        }
+        return [];
+    };
 });
 
 runPath.controller('API', ['$scope', '$http', '$log', 'RUNPATH_API', function($scope, $http, $log, RUNPATH_API) {
