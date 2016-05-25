@@ -1,1 +1,1 @@
-var runPath = angular.module('runPath', ['ngAnimate', 'ui.bootstrap']).constant('RUNPATH_API', 'http://jsonplaceholder.typicode.com/photos');
+var runPath = angular.module('runPath', ['ngAnimate', 'ui.bootstrap']).constant('RUNPATH_API', '//jsonplaceholder.typicode.com/photos');
